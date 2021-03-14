@@ -1,0 +1,433 @@
+#p1, #p4{
+    width: 100vw;
+    height: 100vh;
+    cursor: context-menu;
+    transition: 1s;
+}
+
+#p1{
+    background: linear-gradient(rgba(51, 51, 51, 0.55), rgba(51, 51, 51, 0.55)), url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#p3 {
+    margin-bottom: 150px;
+}
+
+
+#p2{
+    height: auto;
+    box-shadow: 0px 5px 5px 0px #676767;
+}
+
+#p5 {
+    background-color: #f0e7e4;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+
+.navig{
+    position: fixed;
+    left: 2%;
+    max-width: 70px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+a>img {
+    max-width: 70px;
+    height: 100px;
+}
+
+.navig:hover{
+    background: #FFF;
+}
+
+#s1{
+    bottom: 70%;
+}
+
+#s2{
+    bottom: 55%;
+}
+
+#s3{
+    bottom: 40%;
+}
+
+#s4{
+    bottom: 25%;
+}
+
+.navig a{
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+header{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+}
+
+.dropdown-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.dropdown-content a{
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+    color: #FFF;
+    font-family: "Poppins";
+}
+
+.dropdown-content a:hover{
+    color: #cc0601;
+}
+
+
+#logo_illogik{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    height: 35%;
+    margin: auto;
+}
+
+.title_disc{
+    width: 100%;
+    height: 10%;
+}
+
+.title_disc p{
+    font-size: 2.6vw;
+    font-family: "Cabin";
+    text-align: center;
+    padding: 20px;
+}
+
+.title_disc p b{
+    color: #cc0601;
+}
+
+.content_affiche{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc_aff{
+    font-size: 2.3vw;
+    font-family: "Cabin";
+    text-align: justify;
+    margin: auto auto auto 0;
+    line-height: 3vw;
+}
+
+#affiche{
+    max-height: 90%;
+    width: 35%;
+}
+
+#img_affiche{
+    max-width: 80%;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#txt_aff{
+    width: 50%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grp_membres{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+#grp_membres p{
+    margin-top: -5px;
+}
+
+.membres{
+    height: 80%;
+    max-width: 100%;
+    margin: 4% auto;
+    opacity: 1;
+    transition: 1s;
+}
+
+.img_membre{
+    height: auto;
+    max-width: 200px;
+    border-radius: 20px;
+    margin: auto;
+    transition: 1s ease;
+}
+
+#desc_mobile1, #desc_mobile2, #desc_mobile3{
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    transition: 1s ease;
+    font-family: "Poppins";
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    
+}
+
+#desc_mobile1 b, #desc_mobile2 b, #desc_mobile3 b{
+    color: #cc0601;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 22px;
+} 
+
+#desc_mobile1 a, #desc_mobile2 a, #desc_mobile3 a{
+    text-decoration: none;
+    color: #cc0601;
+}
+
+.title_cat{
+    font-size: 3.5vw;
+    padding: 15px;
+    font-family: "Cabin";
+    font-weight: bold;
+    text-align: center;
+}
+
+.c_white{
+    color: #FFF;
+}
+
+.c_black{
+    color: #000;
+}
+
+.histoire {
+    background-color: #195f9e;
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+
+#hist{
+    height: 60%;
+    width: 100%;
+    display: flex;    
+}
+
+
+.desc_hist{
+    margin: auto;
+    height: 40%;
+    width: 75%;
+    text-align: center;
+    font-family: "Cabin";
+    font-size: 2.2vw;
+    line-height: 2.8vw;
+    color: white;
+}
+
+.desc_hist b{
+    color: #cc0601;
+}
+
+#content-img{
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
+.noimg_item{
+    opacity: 0;
+    transition: 1s;
+}
+
+.img_item {
+     max-width: 100%
+}
+
+.yesimg_item{
+    opacity: 1;
+    transition: 1s;
+}
+
+#content-com{
+    width: 100%;
+    display: flex;
+}
+
+object{
+    height: 750px;
+    width: 70%;
+    margin: auto;
+}
+
+object p{
+    text-align: justify;
+    font-family: "Cabin";
+    font-size: 1.7vw;
+}
+
+object p a{
+    text-decoration: none;
+    color: #cc0601;
+}
+
+#content-form{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#content-form form{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-form form input[type=text]{
+    height: 50px;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 12px 20px;
+}
+
+#content-form form textarea{
+    height: 80px;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 12px 20px;
+}
+
+#content-form form input[type=submit]{
+    height: 60px;
+    background-color: #195f9e;
+    width: 90%;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px auto 10px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer{
+    height: 200px;
+    width: 100vw;
+    background: #071a2b;
+}
+
+#content_foot{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.side_foot{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+#content_foot div:nth-child(3){
+    display: block;
+}
+
+.side_foot div{
+    width: 100%;
+    height: 47%;
+    display: flex;
+}
+
+.side_foot div a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 3.0vw;
+    font-family: "Cabin";
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.side_foot img{
+    height: 75px;
+    margin: auto;
+}
+
+.center_foot{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+
+.center_foot img{
+    height: 100px;
+    margin: auto;
+}
+
+.mbr-head{
+    height: 150px;
+    background: #000;
+}
+
+#contain-mbr{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mbr{
+    height: 28%;
+    width: 100%;
+    display: flex;
+}
+
+.mbr p{
+    margin: auto;
+    height: 80%;
+    width: 40%;
+    text-align: justify;
+    font-family: "Cabin";
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+
+.logo-mbr{
+    height: 100px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+

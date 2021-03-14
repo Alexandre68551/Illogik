@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ILLOGI'K</title>
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="styles/style_mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 850px)" href="styles/style.css">
+    <link rel="icon" href="img/logo.png" sizes="32x32">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cabin');
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        html {
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navig" id="s1"><a href="#p1" name="p1"><img src="img/pique.png" alt=""></a></div>
+    <div class="navig" id="s2"><a href="#p2" name="p2"><img src="img/coeur.png" alt=""></a></div>
+    <div class="navig" id="s3"><a href="#p3" name="p3"><img src="img/trefle.png" alt=""></a></div>
+    <div class="navig" id="s4"><a href="#p5" name="p4"><img src="img/carreau.png" alt=""></a></div>
+
+    <div id="p1">
+        <header id="dropdown">
+            <div class="dropdown-content">
+                <a name="accueil" href="#p1">Accueil</a>
+                <a name="troupe" href="#p2">L'équipe</a>
+                <a name="medias" href="#p3">Spectacle</a>
+                <a name="contact" href="#p5">Contact</a>
+            </div>
+        </header>
+        <div id="logo_illogik">
+            <img class="logo" src="img/logo.png" alt="logo illogik">
+        </div>
+    </div>
+
+
+
+    <div id="p2">
+        <p class="title_cat c_black">Qui sommes nous ?</p>
+        <div id="grp_membres">
+            <div class="membres">
+                <img src="img/Natacha.jpg" class="img_membre" alt="Natacha">
+                <div id="desc_mobile1"><b>Natacha</b><br>24 ans<br>Magicien depuis 2018<br><b>Spécialité :</b><br>Magie
+                    des cartes</div>
+            </div>
+            <div class="membres">
+                <img src="img/Louis.jpg" class="img_membre" alt="Louis">
+                <div id="desc_mobile2"><b>Louis</b><br>24 ans<br>Magicien depuis 2017<br><b>Spécialité
+                        :</b><br>Mentalisme</div>
+            </div>
+            <div class="membres">
+                <img src="img/Armand.jpg" class="img_membre" alt="Armand">
+                <div id="desc_mobile3"><b>Armand</b><br>25 ans<br>Magicien depuis 2016<br><b>Spécialité
+                        :</b><br>Téléportation d'objets</div>
+            </div>
+        </div>
+        <div class="histoire">
+            <p class="title_cat c_black">Notre histoire</p>
+
+            <p class="desc_hist">Illogi’k a été créé en 2015 suite à une soirée spéciale consacrée à la <b>magie</b> à
+                Mulhouse.
+                Lors de cette soirée, on pouvait y retrouver beaucoup de <b>magiciens</b> en tout genre, venant des 4
+                coins de l’Alsace.
+                Natacha, Armand et Louis sont tous les trois passés l’un après l’autre lors de cette soirée. Les 3
+                magiciens, étant
+                si bien <b>complémentaires</b>, décidèrent après la soirée, de se retrouver pour boire un verre. C’est
+                ici que commença leur
+                nouvelle <b>aventure</b> en équipe. Illogi’k est spécialisé dans le close-up, c'est-à -dire dans la
+                magie dite de près. Le but
+                est de casser la barrière entre le magicien et le spectateur, en l’incitant à <b>participer</b> au tour.
+                Cette approche rend ces
+                derniers encore plus impressionnant pour les spectateurs, car ces derniers sont au <b>cœur</b> de
+                l’action. Les 3 magiciens sont
+                habillés à l’ancienne, avec de grands manteaux et paraissent presque mystérieux. </p>
+        </div>
+
+    </div>
+    <div id="p3">
+        <div class="title_disc">
+            <p>Venez nous voir lors de notre <b>spectacle</b> pour découvrir des tours à couper le souffle.</p>
+        </div>
+        <div class="content_affiche">
+            <div id="txt_aff">
+                <p class="desc_aff">Laissez-vous surprendre par des tours de magie <b>fantastiques</b>, chaque magicien
+                    vous transportera dans un monde <b>stupéfiant</b> en passant de la magie des cartes au mentalisme
+                    jusqu'à la téléportation d'objets. Le spectacle se finira par un tour <b>inédit</b> réalisé par nos
+                    trois membres de la troupe <b>Illogi'k</b>.
+                <p class="desc_aff">Le spectacle aura lieu à la Place de la Réunion à <b>Mulhouse</b>.<br> La première
+                    représentation aura lieu le <b>samedi 13 mars à 15h</b> et la deuxième le <b>dimanche 14 mars à
+                        15h.</b></p>
+            </div>
+            <div id="affiche"><img id="img_affiche" src="img/affiche.jpg" alt="affiche"></div>
+        </div>
+    </div>
+
+    <div id="p4">
+        <div class="title_cat c_black">Dossier de presse</div>
+        <div id="content-com">
+            <object data="img/presse.pdf" type="application/pdf">
+                <p class="err">Il se peut que vous n'avez pas un plug-in pour afficher ce PDF <a
+                        href="img/presse.pdf">Cliquez ici pour le télécharger.</a></p>
+            </object>
+        </div>
+    </div>
+
+    <div id="p5">
+        <div class="title_cat c_black">Nous contacter</div>
+        <div id="content-form">
+            <form>
+                <input type="text" name="name" placeholder="Votre nom">
+                <input type="text" name="forname" placeholder="Votre prénom">
+                <input type="text" name="email" placeholder="Votre email">
+                <textarea placeholder="Votre message"></textarea>
+                <input type="submit" name="ok">
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div id="content_foot">
+            <div class="side_foot">
+                <img src="img/fb.png" alt="logo facebook">
+                <img src="img/insta.png" alt="logo instagram">
+            </div>
+            <div class="center_foot">
+                <img src="img/logo.png" alt="logo illogik">
+            </div>
+            <div class="side_foot">
+                <div><a href="plan-site.html" target="blank" name="plan">Plan du site</a></div>
+                <div><a href="mentions.html" target="blank" name="mentions">Mentions légales</a></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
